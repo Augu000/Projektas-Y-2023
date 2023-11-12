@@ -1,0 +1,118 @@
+html {
+    background-color: black;
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+}
+
+body
+{   
+    padding: 0;
+    margin: 0;
+    font-family: 'Helvetica', 'Arial', sans-serif;
+}
+
+p, h1, h2 {
+    color: white;
+}
+
+header{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    min-height: 100vh;
+    text-align: center;
+}
+header h1{
+    font-size: 42px;
+    font-weight: bold;
+    padding: 10px 10px 20px 10px;
+}
+
+video{
+    width: 100%;
+    height: 500px;
+}
+.registration{
+    margin-top: 20px;
+    padding: 30px 60px 30px 60px;
+    background-color: #20BF55;
+    border-radius: 7px;
+    text-decoration: none;
+    color: white;
+    transition: 0.5s;
+}
+#more-info{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.header-text-holder{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../img/bckgmain.png);
+    object-fit: center;
+    object-position: middle;
+    display: flex;
+    width: 100%;
+    min-height: 100vh;
+    flex-direction: column;
+    border-radius: 7px;
+}
+
+.header-text-holder a{
+    color: white;
+}
+
+.more-info{
+    margin-top: 30px;
+}
+
+section{
+    text-align: center;
+    min-height: 25vh;
+}
+
+.registration:hover{
+    background-color: transparent;
+    border: solid 1px;
+    color: white;
+    transition: 0.5s;
+}
+
+footer{
+    padding-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.program-holder{
+    margin: 1%;
+    padding: 50px 30% 50px 30%;
+    border-radius: 7px;
+    background-color: black;
+    color: white;
+    border: dashed 1px;
+    max-width: 100%;
+    height: auto;
+    
+}
+
+.program-holder h2, p{
+    color: rgb(255, 255, 255);
+}
+
+footer p{
+    color: white;
+}
+
